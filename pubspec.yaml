@@ -1,0 +1,47 @@
+name: flutter_banking_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0" # gunakan SDK terbaru yang stabil
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  gap: ^3.0.1
+  fl_chart: ^0.63.0
+  shared_preferences: ^2.5.3
+  provider: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans_Regular.ttf
+        - asset: assets/fonts/DMSans_Medium.ttf
+        - asset: assets/fonts/DMSans_Bold.ttf
+
+    - family: IconlyBold
+      fonts:
+        - asset: assets/fonts/Iconly_Bold.ttf
+
+    - family: IconlyBroken
+      fonts:
+        - asset: assets/fonts/Iconly_Light.ttf
+
+  assets:
+    - assets/
+    - assets/memoji/
+    - assets/cards/
