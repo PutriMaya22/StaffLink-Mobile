@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/repo/repository.dart';
-import 'package:flutter_banking_app/utils/iconly/iconly_light.dart';
+import 'package:StaffLink/repo/repository.dart';
+import 'package:StaffLink/utils/iconly/iconly_light.dart';
 import 'package:gap/gap.dart';
 
 AppBar myAppBar({required String title, String? stringColor, required bool implyLeading, required BuildContext context, bool? hasAction}) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/utils/styles.dart';
-import 'package:flutter_banking_app/view_models/view_models.dart';
-import 'package:flutter_banking_app/widgets/bottom_nav.dart';
+import 'package:StaffLink/utils/styles.dart';
+import 'package:StaffLink/view_models/view_models.dart';
+import 'package:StaffLink/widgets/bottom_nav.dart';
 import 'package:provider/provider.dart';
 
 void main() {

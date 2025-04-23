@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/json/user_list.dart';
-import 'package:flutter_banking_app/repo/repository.dart';
-import 'package:flutter_banking_app/utils/layouts.dart';
-import 'package:flutter_banking_app/utils/size_config.dart';
+import 'package:StaffLink/json/user_list.dart';
+import 'package:StaffLink/repo/repository.dart';
+import 'package:StaffLink/utils/layouts.dart';
+import 'package:StaffLink/utils/size_config.dart';
 
 class PeopleSlider extends StatefulWidget {
   const PeopleSlider({Key? key}) : super(key: key);
@@ -68,7 +68,10 @@ class _PeopleSliderState extends State<PeopleSlider> {
                 const SizedBox(height: 8),
                 (index == currentPage)
                     ? Text(item['name'],
-                        style: TextStyle(color: Repository.textColor(context), fontSize: 16, fontWeight: FontWeight.w500))
+                        style: TextStyle(
+                            color: Repository.textColor(context),
+                            fontSize: 16,
+                            fontWeight: FontWeight.w500))
                     : const Text('')
               ],
             ),

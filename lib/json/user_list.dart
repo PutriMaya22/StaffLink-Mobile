@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/generated/assets.dart';
+import 'package:StaffLink/generated/assets.dart';
 
 List userList = [
   {
