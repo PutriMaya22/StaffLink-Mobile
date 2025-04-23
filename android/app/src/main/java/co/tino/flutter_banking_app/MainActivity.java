@@ -1,4 +1,4 @@
-package co.tino.flutter_banking_app;
+package co.tino.StaffLink;
 
 import io.flutter.embedding.android.FlutterActivity;
 

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_banking_app/generated/assets.dart';
+import 'package:StaffLink/generated/assets.dart';
 
 List<Map<String, dynamic>> transactions = [
   {

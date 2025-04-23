@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/repo/repository.dart';
-import 'package:flutter_banking_app/utils/styles.dart';
+import 'package:StaffLink/repo/repository.dart';
+import 'package:StaffLink/utils/styles.dart';
 
 inputDecoration({String? text, IconData? prefixIcon, Widget? suffixIcon, required BuildContext context}) {
   return InputDecoration(

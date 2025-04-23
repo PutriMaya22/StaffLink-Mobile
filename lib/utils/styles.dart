@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/utils/size_config.dart';
-import 'package:flutter_banking_app/view_models/view_models.dart';
+import 'package:StaffLink/utils/size_config.dart';
+import 'package:StaffLink/view_models/view_models.dart';
 
 class Styles {
 

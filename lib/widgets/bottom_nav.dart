@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_banking_app/repo/repository.dart';
-import 'package:flutter_banking_app/utils/iconly/iconly_bold.dart';
-import 'package:flutter_banking_app/utils/styles.dart';
-import 'package:flutter_banking_app/views/home.dart';
-import 'package:flutter_banking_app/views/profile.dart';
-import 'package:flutter_banking_app/views/stats.dart';
-import 'package:flutter_banking_app/views/wallet.dart';
+import 'package:StaffLink/repo/repository.dart';
+import 'package:StaffLink/utils/iconly/iconly_bold.dart';
+import 'package:StaffLink/utils/styles.dart';
+import 'package:StaffLink/views/home.dart';
+import 'package:StaffLink/views/profile.dart';
+import 'package:StaffLink/views/stats.dart';
+import 'package:StaffLink/views/wallet.dart';
 
 /// This is the stateful widget that the main application instantiates.
 class BottomNav extends StatefulWidget {
